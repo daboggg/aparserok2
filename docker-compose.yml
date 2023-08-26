@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  daboggg_bot:
+    container_name: daboggg_bot
+    build: .
+    command: >
+      sh -c 'python parser.py'
+    ports:
+      - 5000:5000
