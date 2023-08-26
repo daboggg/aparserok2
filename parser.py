@@ -57,6 +57,6 @@ executor.start_webhook(
     on_startup=on_startup,
     on_shutdown=on_shutdown,
     skip_updates=True,
-    host="194.190.153.95",
+    host="0.0.0.0",
     port=int(os.getenv("PORT", 5000))
 )
